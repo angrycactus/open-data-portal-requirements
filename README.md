@@ -5,6 +5,6 @@ This repository contains a set of sample requirements to help governments evalua
 
 The sample requirements are available in the following languages:
 
-* [Arabic](/arabic/README.md)
+* [Arabic](/arabic/README.textile)
 * [English](/english/README.md)
 
