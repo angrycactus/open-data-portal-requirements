@@ -18,88 +18,88 @@ Les rôles suivants sont utilisés dans ce document pour identifier à qui chaqu
 
 Généralement, un éditeur peut faire tout ce qu'un client peut faire, et un administrateur peut faire tout ce qu'un éditeur peut faire dans le portail.
 
-## Data Catalog Features
-A data catalog is a listing of available data, with each catalog entry corresponding to one or more data resources. It usually includes high-level information for each dataset, such as Title, Description, Release Date, Category(-ies), and Keyword(s).
+## Caractéristiques du catalogue de données
+Un catalogue de données est une liste des données disponibles, chaque entrée du catalogue correspondant à une ou plusieurs ressources de données. Il inclut des informations de haut niveau pour chaque ensemble de données, telles que le titre, description, date de sortie, Catégorie (s) et Mot-clé (s).
 
-### Customers
-* must be able to search for datasets by one or more terms contained in dataset metadata
-* must be able to browse or explore data by category
-* must be able to download the catalog in a machine-readable format compatible with the [common core metadata schema](https://project-open-data.cio.gov/v1.1/metadata-resources/) from a well-known address (typically /data.json)
-* must be able to view a summary page for each dataset which details data resources, metadata, and other relevant documentation
-* may be able to search for datasets by terms contained in the data
-
-### Publishers
-* must be able to add, edit, or remove catalog entries
-* may be able to mark catalog entries as private so they are not visible to the public
-
-### Administrators
-* must be able to create, edit, and retire metadata categories
-* must be able to configure default sorting for data catalog
-* must be able to configure global settings for data catalog, including color theme, branding/logo, titling.
-* may be able to configure additional global settings for data catalog, including custom Cascading Style Sheets (CSS), homepage display elements and layout, displayed catalog elements, and more.
-
-## Data Storage & Management Features
-
-### Customers
-* must be able to download stored data in bulk
-* may be able to access stored data through a REST API
+### Clients
+* Doit être capable de rechercher les données par un ou plusieurs termes contenus dans les métadonnées de la liste des données.
+* Doit être capable de naviguer ou explorer les données par catégorie.
+* Doit être capable de télécharger le catalogue dans un format lisible par une machine compatible avec le « schéma commun de métadonnées de base » à partir d'une adresse bien connue (/data.json comme exemple).
+* Doit être capable d'afficher une page de résumé pour chaque liste de données qui détaille les ressources de données, les métadonnées et les autres documents pertinents.
+* Peut être capable de rechercher des listes de données par des termes contenus dans les données.
 
 ### Publishers
-* must be able to create new data resources
-* must be able to replace or update existing data resources
+* Doit être capable d'ajouter, modifier ou supprimer des entrées de catalogue
+* Peut être capable de marquer les entrées de catalogue que privé, afin qu'ils ne sont pas visibles pour le public.
 
-### Administrators
-* must be able to manage permissions for other administrators and publishers
+### Administrateurs
+* Doit être capable de créer, éditer, et de retirer des catégories de métadonnées
+* Doit être capable de configurer le tri par défaut pour le catalogue de données
+* Doit être capable de configurer les paramètres globaux pour le catalogue de données, y compris thème de la couleur, l'image de marque / logo, titrage.
+* Peut être capable de configurer les paramètres globaux supplémentaires pour le catalogue de données, y compris les feuilles de style (CSS), les éléments d'affichage de la page d'accueil et la mise en page, affichage des éléments de catalogue, et plus encore.
 
-## Data Presentation Features
+## Caractéristiques de stockage et gestion des données
 
-### Customers
-* must be able to preview data resources using an through their internet browser (for example, through a rows-and-columns grid or a map)
-* may be able to visualize data resources in a graphical way, including maps, graphs, charts, etc.
-* may be able to save visualizations with configuration settings for future viewing
+### Clients
+* Doit être capable de télécharger des données stockées en vrac.
+* Peut être capable d'accéder aux données stockées via une API REST.
 
-### Publishers
-* may be able to create data visualizations and make them accessible through the data catalog or data resource page(s)
+### Éditeurs
+* Doit être capable de créer des nouvelles ressources de données.
+* Doit être capable de remplacer ou de mettre à jour les ressources de données existantes.
 
-### Administrators
-* may be able to control whether customer-created data presentations are visible to other customers
+### Administrateurs
+* Doit être capable de gérer les autorisations pour d'autres administrateurs et éditeurs.
 
-## Community Features
+## Caractéristiques de présentation des données
 
-### Customers
-* must be able to provide comments and feedback on individual data resources
-* may be able to nominate data resources for public release
-* may be able to provide comments and feedback on the data catalog
+### Clients
+* Doit être capable de pré visualiser les ressources de données en utilisant un biais de leur navigateur Internet (par exemple, à travers une grille lignes-et-colonnes ou d'une carte).
+* Peut être capable de visualiser les ressources de données de manière graphique, y compris des cartes, des graphiques, des tableaux, etc.
+* Peut être capable de sauver des visualisations avec des paramètres de configuration pour un visionnement ultérieur.
 
-### Publishers
-* must be able to view customer-nominated data resources
-* may be able to update the status of customer-nominated data resources
-* may be able to respond to customer-nominated data resources
-* may be able to view and respond to customer comments and feedback
-* may be able to review and approve visibility of customer comments and feedback
+### Éditeurs
+* Peut être capable de créer des visualisations de données et les rendre accessibles à travers la page du catalogue de données ou une ressource de données.
 
-### Administrators
-* must track and analyze customer feedback
+### Administrateurs
+* Peut être capable de contrôler si les présentations de données créées par le client sont visibles à d'autres clients.
 
-## Accounts and Profiles
+## Caractéristiques de la Communauté
 
-### Customers
-* may be able to register for an account with an email address
-* may be able to create, edit, or remove profile information which may be accessible to other customers
+### Clients
+* Doit être capable de fournir des commentaires sur les ressources de données individuels.
+* Peut être capable de nommer les ressources de données pour la diffusion publique.
+* Peut être capable de fournir des commentaires sur le catalogue de données.
 
-### Publishers
-* may be able to grant specific, registered customers permission to access specific data resources that are owned by that publisher
+### Éditeurs
+* Doit être capable d'afficher les ressources de données désignées par le client.
+* Peut être capable de mettre à jour l'état des ressources de données désignées par le client.
+* Peut être capable de répondre à des ressources de données désignées par le client.
+* Peut être capable de visualiser et de répondre aux commentaires des clients.
+* Peut être capable d'examiner et d'approuver la visibilité des commentaires des clients.
 
-### Administrators
-* must be able to manage permissions for other administrators and publishers
-* must be able to disable customer accounts (if customer accounts are a feature of the portal)
+### Administrateurs
+* Doit être capable de suivre et d’analyser les commentaires des clients.
 
-## Non-Role Requirements
-The following requirements are general technical requirements which either don’t require a specific role or apply to all roles.
+## Comptes et Profils
 
-* Data resources must be available for download in the format in which they were originally published on the portal
-* API calls which are invalid or fail must return the appropriate HTTP response status code (404, 500, etc) and status message
-* The portal must be accessible through a city-provided internet domain name (e.g. `data.somecity.gov`)
-* Transport Layer Security (TLS) must be used for account registration, logging in, and all actions performed by publishers and administrators
-* Web pages must be accessible on large-screen devices (desktop computers, laptops, etc.)
-* Web pages may be accessible on small-screen devices (mobile/smart phones, tablets, etc.)
+### Clients
+* Peut être capable de créer un compte avec une adresse e-mail.
+* Peut être capable de créer, modifier ou supprimer des informations de profil qui peut être accessible à d'autres clients.
+
+### Éditeurs
+* Peut être capable d’assurer un accès spécifique pour les clients enregistrés à des ressources des données spécifiques qui sont détenues par cet éditeur.
+
+### Administrateurs
+* Doit être capable de gérer les autorisations pour d'autres administrateurs et éditeurs.
+* Doit être capable de désactiver les comptes des clients (si les comptes des clients sont une caractéristique du portail).
+
+## Autre exigences
+Les exigences suivantes sont des exigences techniques générales qui ne sont pas nécessaire pour un rôle spécifique.
+
+* Ressources de données doivent être disponibles pour le téléchargement dans le format dans lequel ils ont été publiés sur le portail.
+* Les appels d'API qui sont invalides doivent retourner le code de réponse HTTP appropriée d'état (404, 500, etc.) et un message d'état.
+* Le portail doit être accessible via un nom de domaine Internet de la ville prévue (par exemple data.somecity.gov).
+* Transport Layer Security (TLS) doit être utilisé pour l'enregistrement des comptes, connexion aux comptes, et toutes les actions effectuées par les éditeurs et les administrateurs.
+* Les pages Web doivent être accessibles sur les appareils à grand écran (ordinateurs de bureau, ordinateurs portables, etc.).
+* Les pages Web peuvent être accessibles sur les appareils à petit écran (téléphones mobiles intelligents /, comprimés, etc.).
