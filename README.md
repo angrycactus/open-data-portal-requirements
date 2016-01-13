@@ -7,4 +7,5 @@ The sample requirements are available in the following languages:
 
 * [Arabic](/arabic/README.textile)
 * [English](/english/README.md)
+* [French] (/french/README.md)
 
